@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+
+    <style>
+        body{
+            margin:0;
+        }
+
+        #header{
+            text-align:center;
+            font-size:100px;
+            color:rgb(76, 9, 9);
+            background-color:bisque;
+            border-color:crimson;
+            border-width:8px;
+            border-style:inset;
+            margin:0;
+
+        }
+
+        #content{
+            display:grid;
+            width:auto;
+            grid-template-columns:50% 50%;
+            border-color:darkred;
+            border-width:4px;
+            border-style:solid;
+            padding: 3%;
+
+            background-image:radial-gradient( rgb(221, 142, 135), rgb(76, 8, 8));
+            background-image:url('rickroll-roll.gif');
+            background-size: 100% 100%;
+            filter: contrast(5) brightness(0.35);
+            transition:ease 2.5s;
+        }
+        #content:hover{
+            filter:contrast(1) brightness(0.75);
+        }
+
+        #content>div{
+            height:250px;
+            background-color:darksalmon;
+            border-color:brown;
+            border-width:2px;
+            border-style:dotted;
+            border-radius:10%/50%;
+            margin:5%;
+            transition:ease 1s;
+            filter:brightness(0.6) hue-rotate(90deg) opacity(0.75);
+            z-index:0;
+
+        }
+        #content>div:hover{
+            transform:scale(1.25);
+            filter: brightness(1.1);
+            z-index:1;
+
+        }
+        h2{
+            text-align:center;
+        }
+
+        p{
+            margin:4%;
+            text-align:center;
+            transition:ease 2s;
+        }
+
+        ul{
+            margin-right:50px;
+        }
+
+        #bing{
+            font-size:8px;
+            font-weight:lighter;
+        }
+    </style>
+
+</head>
+<body>
+    <h1 id="header">Wackus Bonkus</h1>
+
+    <div id="content">
+        <div id="summ">
+            <h2>Summary</h2>
+            <p id="bing">yesn't</p>
+        </div>
+
+        <div id="cont">
+            <h2>Contact Information</h2>
+            <p>Email: boinkusbunkus@gmail.com</p>
+            <p>Phone Number: -ε  (^Π$) φξΞ - @σ%#</p>
+        </div>
+
+        <div id="edu">
+            <h2>Education</h2>
+            <p>I am well versed in the art of Gæ™</p>
+        </div>
+
+        <div id="cert">
+            <h2>Certification</h2>
+            <p>I can do what I want.</p>
+        </div>
+
+        <div id="relv">
+            <h2>Relevant Skills</h2>
+            <p>Idk I'm pretty good at causing chaos ¯\_(ツ)_/¯</p>
+        </div>
+
+        <div id="exp">
+            <h2>Professional Experience</h2>
+            <ul id="boinkus">
+                <li>Vehicular mans-laughter</li>
+                <li>Shoplifting</li>
+                <li>First degree tomfoolery</li>
+                <li>Conspiring against the Danish government</li>
+                <li>Arson</li>
+                <li>Public showcases of scallywaggery</li>
+                <li>Several violations of the Laws of Physics™</li>
+                <li>Offending our lord and savior Grimmothy</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
